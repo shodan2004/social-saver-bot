@@ -1,0 +1,74 @@
+# Ignore files
+.DS_Store
+.env
+.env.local
+.env.*.local
+**/.env
+*.log
+*.pyc
+__pycache__/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+*.tsbuildinfo
+npm-debug.log
+yarn-error.log
+.next/
+out/
+
+# Python
+env/
+venv/
+.venv/
+ENV/
+*.egg
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend build
+frontend/dist/
+frontend/.vite/
+test-results/
+video-out/
+
+# Local media and recordings
+*.mp4
+*.webm
+*.avi
+*.mov
+
+# Local runtime outputs
+backend/.venv/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.coverage
+frontend/.env
+backend/.env
+
+# Backend cache
+backend/__pycache__/
+backend/.pytest_cache/
+backend*.db
+backend/*.db
+
+# OS
+Thumbs.db
+.DS_Store
